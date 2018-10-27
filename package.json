@@ -1,0 +1,24 @@
+{
+  "name": "void",
+  "version": "1.0.0",
+  "description": "The Void",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolnetnz/Void.git"
+  },
+  "keywords": [],
+  "author": "LX_Gaming",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lolnetnz/Void/issues"
+  },
+  "homepage": "https://www.lolnet.co.nz",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "minecraft-protocol": "1.8.2"
+  }
+}
