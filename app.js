@@ -44,7 +44,7 @@ var server = minecraft.createServer({
     },
     "motd": reference.name + " v" + reference.version,
     "maxPlayers": 0,
-    "favicon": getServerInfo()
+    "favicon": getServerIcon()
 });
 
 server.on("connection", function(client) {
@@ -68,9 +68,9 @@ process.on("message", function(message) {
     }
 });
 
-function getServerInfo() {
+function getServerIcon() {
     var bitmap = fs.readFileSync("server-icon.png");
-    return new Buffer(bitmap).toString("base64");
+    return "data:image/png;base64," + new Buffer(bitmap).toString("base64");
 }
 
 function shutdown() {
