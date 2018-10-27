@@ -21,8 +21,8 @@ var server = minecraft.createServer({
                 "protocol": client.version
             },
             "players": {
-                "max": 2147483647,
-                "online": 2147483647,
+                "max": 133337,
+                "online": 133337,
                 "sample": []
             },
             "description": {
