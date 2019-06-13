@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lolnetnz/Void.git"
+    "url": "git+https://github.com/LXGaming/Void.git"
   },
   "keywords": [],
   "author": "LX_Gaming",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/lolnetnz/Void/issues"
+    "url": "https://github.com/LXGaming/Void/issues"
   },
-  "homepage": "https://www.lolnet.co.nz",
+  "homepage": "https://lxgaming.github.io/",
   "dependencies": {
     "chalk": "^2.4.1",
     "minecraft-protocol": "1.8.2"
