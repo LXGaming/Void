@@ -18,7 +18,7 @@
   },
   "homepage": "https://lxgaming.github.io/",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "minecraft-protocol": "1.8.2"
+    "chalk": "^2.4",
+    "minecraft-protocol": "^1.9"
   }
 }
