@@ -70,7 +70,7 @@ process.on("message", function(message) {
 
 function getServerIcon() {
     var bitmap = fs.readFileSync("server-icon.png");
-    return "data:image/png;base64," + new Buffer(bitmap).toString("base64");
+    return "data:image/png;base64," + Buffer.from(bitmap).toString("base64");
 }
 
 function shutdown() {
