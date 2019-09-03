@@ -17,12 +17,12 @@ var server = minecraft.createServer({
     "beforePing": function(response, client) {
         return {
             "version": {
-                "name": reference.name + " v" + reference.version,
+                "name": reference.name + "/" + reference.version,
                 "protocol": client.version
             },
             "players": {
-                "max": 133337,
-                "online": 133337,
+                "max": 1337,
+                "online": 1337,
                 "sample": []
             },
             "description": {

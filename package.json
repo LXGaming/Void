@@ -1,6 +1,6 @@
 {
   "name": "void",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Void",
   "main": "app.js",
   "scripts": {
