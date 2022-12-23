@@ -19,6 +19,6 @@
   "homepage": "https://lxgaming.github.io/",
   "dependencies": {
     "chalk": "^2.4",
-    "minecraft-protocol": "^1.9"
+    "minecraft-protocol": "^1.36.2"
   }
 }
